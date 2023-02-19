@@ -55,8 +55,47 @@ const Fizu: NextPage = () => {
         <title>Tech Fizu</title>
         <meta
           name="description"
-          content="Nézd meg mennyit fizetnek a tech cégek a legnépszerűbb pozíciókért"
+          content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
         />
+
+        <meta itemprop="name" content="Tech Fizu" />
+        <meta
+          itemprop="description"
+          content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
+        />
+        <meta
+          itemprop="image"
+          content="https://techfizu.robi.dev/og-image.jpg"
+        />
+
+        <meta property="og:url" content="https://techfizu.robi.dev" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Személyes pénzügyi statisztikák (OTP)"
+        />
+        <meta
+          property="og:description"
+          content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
+        />
+        <meta
+          property="og:image"
+          content="https://techfizu.robi.dev/og-image.jpg"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Személyes pénzügyi statisztikák (OTP)"
+        />
+        <meta
+          name="twitter:description"
+          content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
+        />
+        <meta
+          name="twitter:image"
+          content="https://techfizu.robi.dev/og-image.jpg"
+        ></meta>
         <link rel="icon" href="/favicon.ico" />
         <script
           async
