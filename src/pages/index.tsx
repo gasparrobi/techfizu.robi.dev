@@ -70,10 +70,7 @@ const Fizu: NextPage = () => {
 
         <meta property="og:url" content="https://techfizu.robi.dev" />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
-        />
+        <meta property="og:title" content="Tech Fizu" />
         <meta
           property="og:description"
           content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
