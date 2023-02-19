@@ -58,13 +58,13 @@ const Fizu: NextPage = () => {
           content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
         />
 
-        <meta itemprop="name" content="Tech Fizu" />
+        <meta itemProp="name" content="Tech Fizu" />
         <meta
-          itemprop="description"
+          itemProp="description"
           content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
         />
         <meta
-          itemprop="image"
+          itemProp="image"
           content="https://techfizu.robi.dev/og-image.jpg"
         />
 
