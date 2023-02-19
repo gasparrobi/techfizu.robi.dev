@@ -72,7 +72,7 @@ const Fizu: NextPage = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Személyes pénzügyi statisztikák (OTP)"
+          content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
         />
         <meta
           property="og:description"
