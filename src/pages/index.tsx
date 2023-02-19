@@ -84,10 +84,7 @@ const Fizu: NextPage = () => {
         />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Személyes pénzügyi statisztikák (OTP)"
-        />
+        <meta name="twitter:title" content="Tech Fizu" />
         <meta
           name="twitter:description"
           content="Tech szektor fizetési statisztikák a Hays Salary Guide alapján"
