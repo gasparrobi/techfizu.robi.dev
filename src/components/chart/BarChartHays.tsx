@@ -29,7 +29,7 @@ const BarChartHays = ({
 }: BarChartHaysProps) => {
   const _payload = payload ?? salaries;
 
-  const chartData = (_payload[2023] as SalaryItem[]).filter(
+  const chartData = (_payload[2024] as SalaryItem[]).filter(
     (item) => item.position.toLowerCase() === selectedPosition.toLowerCase()
   );
 
