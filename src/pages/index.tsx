@@ -15,12 +15,12 @@ import Link from "next/link";
 export type Level = "junior" | "medior" | "senior" | "lead" | undefined;
 
 const positions = Array.from(
-  new Set((salaries[2024] as SalaryItem[]).map((item) => item.position)) || []
+  new Set((salaries[2025] as SalaryItem[]).map((item) => item.position)) || []
 );
 
 const softwareDevPositions = Array.from(
   new Set(
-    (salaries[2024] as SalaryItem[])
+    (salaries[2025] as SalaryItem[])
       .filter((item) => item.category.includes("Software development"))
       .map((item) => item.position)
   ) || []
@@ -33,7 +33,7 @@ const Fizu: NextPage = () => {
   );
   const [selectedLevel, setSelectedLevel] = useState<Level>("medior");
 
-  const positionValues = (salaries[2024] as SalaryItem[]).filter(
+  const positionValues = (salaries[2025] as SalaryItem[]).filter(
     (item) => item.position === selectedPosition
   );
 
@@ -116,7 +116,7 @@ const Fizu: NextPage = () => {
               <h2 className=" text-2xl font-semibold  sm:text-4xl">
                 <Highlighted className="text-dark">
                   {" "}
-                  Fizuk 2024-ben:{" "}
+                  Fizuk 2025-ben:{" "}
                 </Highlighted>
               </h2>
               <DropdownSelector
@@ -204,7 +204,7 @@ const Fizu: NextPage = () => {
                 rel="noopener noreferrer"
                 href={"https://www.hays.hu/en/salary-guide"}
               >
-                Hays Hungary Salary Guide 2024{" "}
+                Hays Hungary Salary Guide 2025{" "}
               </Link>
               és a Hays korábbi évek kiadványaiból származnak.
             </div>
