@@ -10,7 +10,10 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       <nav className="flex w-full flex-col items-center bg-white">
         <div className="container flex items-center justify-between gap-6 px-4 py-6 text-lg font-bold sm:px-4">
           <div className="flex gap-6">
-            <Link href="https://inflacio.robi.dev" className="group relative">
+            <Link
+              href="https://statmonitor.hu/inflacio-kalkulator"
+              className="group relative"
+            >
               Infláció kalkulátor
               <div className="line absolute bottom-0 left-0 block h-[1px] w-[1px] origin-left scale-x-0 border-t-2 border-t-slate-900 transition-all duration-300 group-hover:w-full group-hover:scale-x-[1]"></div>
             </Link>
